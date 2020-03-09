@@ -1,0 +1,10 @@
+.form-inline{
+    flex:1;
+}
+.form-inline .form-control{
+    flex: 1;
+}
+.nav-item a{
+    padding: 5px 25px;
+}
+

@@ -1,0 +1,29 @@
+.productimg{
+    margin: 10px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 5px #ccc;
+    border: 1px solid #ccc;
+}
+.productimg img{
+    width: 100%;
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+}
+
+.cartbtns{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.cartbtns a{
+    width:49%;
+}
+
+.product-details{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}

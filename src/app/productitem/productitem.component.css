@@ -1,0 +1,13 @@
+.product-item{
+    width: 180px;
+    text-align: center;
+    display: inline-block;
+}
+.product-item figure{
+    display: flex;
+}
+.product-item figure img{
+    margin: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
