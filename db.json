@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id"      :1,
+      "name" 		: "Smart Device",
+      "offer"		: ["Extra 5% off","Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit CardT&C"],
+      "category": "Electronics",
+      "price"		: 500,
+      "description"	: "Get set to game, capture, and watch your favourite content on the POCO X2 smartphone. Featuring the RealityFlow display",
+      "image"		: "/assets/product-img/product-2.jpeg",
+      "rating": 5,
+      "specification":[        
+          ["Model Number", 12121],
+          ["Model Name", "GD phone"],
+          ["Dial Color", "Gold"],
+          ["Dial Shape", "Rectangle"],
+          ["Strap Color", "Black"],
+          ["Strap Material", "Silicone"]        
+      ]
+    },{
+      "id"      :2,
+      "name" 		: "Shoes",
+      "offer"		: ["Extra 15% off","Extra 05% off"],
+      "category": "mens",
+      "price"		: 3000,
+      "description"	: "Get set to game, capture, and watch your favourite content on the POCO X2 smartphone. Featuring the RealityFlow display",
+      "image"		: "/assets/product-img/product-1.jpeg",
+      "rating" : 3,
+      "specification":[        
+        ["Model Number", 12121],
+        ["Model Name", "Shoe"],
+        ["Color", "Black"],
+        ["Shape", "Rectangle"],
+        ["Strap Color", "White"],
+        ["Strap Material", "Silicone"]        
+    ]
+    },{
+      "id"      :3,
+      "name" 		: "Mobile",
+      "offer"		: ["Extra 10% off","Extra 20% off on axis bank cards","Extra 25% off on HDFC cards"],
+      "category": "Electronics",
+      "price"		: 15000,
+      "description"	: "Get set to game, capture, and watch your favourite content on the POCO X2 smartphone. Featuring the RealityFlow display",
+      "image"		: "/assets/product-img/product-4.jpeg",
+      "rating" : 4,
+      "specification":[        
+        ["Model Number", 12121],
+        ["Model Name", "Shoe"],
+        ["Color", "Black"],
+        ["Shape", "Rectangle"],
+        ["Strap Color", "White"],
+        ["Strap Material", "Silicone"]        
+    ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

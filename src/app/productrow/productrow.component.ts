@@ -10,11 +10,14 @@ export class ProductrowComponent implements OnInit {
 
   constructor(@Inject(ProductsService) private service: ProductsService) { }
 
-  ngOnInit() {
-  }
+  productlist = []
 
-  getproducts(){
-    this.service.getProducts()
+  ngOnInit() {
+    this.service.getProducts().then(data=>{
+      console.log(data);
+      let d:any = data
+      this.productlist = d;
+    })
   }
 
 }

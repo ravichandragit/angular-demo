@@ -1,12 +1,14 @@
 <div class="product-item">
-    <a [routerLink]="['/product-details','smart-device']">
+    <a [routerLink]="['/product-details',product.id]">
         <figure>
             <img
-                src="/assets/product-img/product-2.jpeg"
+                [src]="product.image"
                 alt="">
         </figure>
-        <div class>Smart Device</div>
-        <div>Offer</div>
-        <div>Category</div>
+        <div class>
+            {{product.name}}
+        </div>
+        <div>{{product.offer[0]}}</div>
+        <div>{{product.category}}</div>
     </a>
 </div>

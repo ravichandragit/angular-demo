@@ -7,4 +7,6 @@
 .nav-item a{
     padding: 5px 25px;
 }
-
+.user-group{
+    display: flex;
+}
