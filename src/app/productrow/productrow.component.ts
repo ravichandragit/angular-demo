@@ -13,11 +13,14 @@ export class ProductrowComponent implements OnInit {
   productlist = []
 
   ngOnInit() {
-    this.service.getProducts().then(data=>{
-      console.log(data);
-      let d:any = data
-      this.productlist = d;
-    })
+    // this.service.getProducts().then(data=>{
+    //   console.log(data);
+    //   let d:any = data
+    //   this.productlist = d;
+    // })
+    // .catch(err => {
+    //   console.log(err);
+    // })
   }
 
 }
