@@ -25,7 +25,8 @@
     "bootstrap": "^4.4.1",
     "rxjs": "~6.5.5",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "typescript": "~3.8.3"
   },
   "devDependencies": {
     "@angular/language-service": "~9.1.9",
@@ -43,6 +44,5 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.8.3"
   }
 }
